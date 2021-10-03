@@ -2,11 +2,11 @@
   "foods": [
     {
       "id": 1,
-      "name": "Ao molho",
-      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas",
-      "price": "19.90",
-      "available": false,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
+      "name": "Ao molho df sfgsdg",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "price": "19.00",
+      "available": true,
+      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas dfsdfs"
     },
     {
       "id": 2,
@@ -15,6 +15,14 @@
       "price": "21.90",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+    },
+    {
+      "id": 65,
+      "name": "Macarrão suculento ",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "price": "100.000",
+      "available": true,
+      "description": "Melhor macarronada da Itália sadffdsf dsfsdfsdf fasdasd"
     }
   ]
 }

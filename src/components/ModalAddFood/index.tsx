@@ -48,12 +48,12 @@ export function ModalAddFood({ isOpen, setIsOpen, handleAddFood } : ModalAddFood
         <Modal isOpen={isOpen} setIsOpen={setIsOpen}>
           <Form onSubmit={handleSubmit}>
             <h1>Novo Prato</h1>
-            <Input name="image" placeholder="Cole o link aqui" setValue={setImage}/>
+            <Input name="image" placeholder="Cole o link aqui" setValue={setImage} value={image}/>
 
-            <Input name="name" placeholder="Ex: Moda Italiana" setValue={setName}/>
-            <Input name="price" placeholder="Ex: 19.90" setValue={setPrice} />
+            <Input name="name" placeholder="Ex: Moda Italiana" setValue={setName} value={name}/>
+            <Input name="price" placeholder="Ex: 19.90" setValue={setPrice} value={price} />
 
-            <Input name="description" placeholder="Descrição" setValue={setDescription} />
+            <Input name="description" placeholder="Descrição" setValue={setDescription} value={description}/>
             <button type="submit" data-testid="add-food-button">
               <p className="text">Adicionar Prato</p>
               <div className="icon">

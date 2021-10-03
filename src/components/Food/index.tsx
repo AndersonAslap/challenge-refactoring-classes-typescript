@@ -21,7 +21,7 @@ interface FoodComponentProps {
 
 export function Food(props : FoodComponentProps) {
 
-    const [isAvailable, setIsAvailable] = useState(false);
+    const [isAvailable, setIsAvailable] = useState(props.food.available);
 
     function setEditingFood(food: FoodProps) {
         props.handleEditFood(food);

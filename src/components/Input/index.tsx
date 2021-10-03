@@ -10,9 +10,10 @@ interface InputProps {
     name: string;
     placeholder:string;
     setValue: (value:string) => void;
+    value: string;
 }
 
-export function Input({ name, placeholder, setValue } : InputProps) {
+export function Input({ name, placeholder, setValue, value } : InputProps) {
     const inputRef : any = useRef(null);
 
     const [isFocused, setIsFocused] = useState(false);
@@ -33,11 +34,11 @@ export function Input({ name, placeholder, setValue } : InputProps) {
         <input
             onFocus={handleInputFocus}
             onBlur={handleInputBlur}
-            defaultValue={""}
             ref={inputRef}
             placeholder={placeholder}
             name={name}
             onChange={(event) => {setValue(event.target.value)}}
+            value={value}
         />
     </Container>
     )
