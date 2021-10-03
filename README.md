@@ -1,7 +1,9 @@
 <h1>GoRestaurant</h1>
 
+<img src="src/assets/goRestaurant.gif" />
+
 <hr>
-<br>
+
 
 <h3>Sobre o GoRestaurant</h3>
 
