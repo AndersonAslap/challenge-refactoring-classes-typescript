@@ -4,8 +4,8 @@
 
 <hr>
 
-
-<h3>Sobre o GoRestaurant</h3>
+ 
+> Sobre o GoRestaurant
 
 <p>
 O GoRestaurant é uma plataforma de pedidos de pratos
@@ -14,7 +14,9 @@ qual está disponível ou indisponível.
 </p>
 
 <br>
-<h3>Tecnologias Ultilizadas</h3>
+
+> Tecnologias Ultilizadas
+
 <p>
 <ul>
   <li>React</li>
